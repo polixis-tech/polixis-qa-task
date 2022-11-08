@@ -10,7 +10,10 @@ In order to run this container you'll need docker installed.
 docker run -p 9876:80 docker pull ghcr.io/polixis-tech/polixis-qa-task:latest
 ```
 
-#### Open localhost:9876 in browser
+
+### Open localhost:9876 in browser
+
+---
 
 ![](image/then-see-me.PNG)
 
