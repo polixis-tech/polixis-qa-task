@@ -1,0 +1,1 @@
+docker run -p 9876:80 docker pull ghcr.io/polixis-tech/polixis-qa-task:latest
