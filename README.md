@@ -14,9 +14,11 @@ docker run -p 9876:80 docker pull ghcr.io/polixis-tech/polixis-qa-task:latest
 
 ![](image/then-see-me.PNG)
 
-
+---
 #### Given a simple graph depicted using html canvas the test code should identify and return the following:
 
-1) Number of nodes which do not have an avatar.
-2) Number of edges which do not have a relation title.
-3) Number of nodes which are not connected to any other nodes.
+<ol>
+  <li>Number of nodes which do not have an avatar.</li>
+  <li>Number of edges which do not have a relation title.</li>
+  <li>Number of nodes which are not connected to any other nodes.</li>
+</ol>
