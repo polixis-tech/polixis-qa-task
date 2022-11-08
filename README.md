@@ -7,7 +7,7 @@ In order to run this container you'll need docker installed.
 ### Usage
 
 ```shell
-docker run -p 9876:80 docker pull ghcr.io/polixis-tech/polixis-qa-task:latest
+docker run -p 9876:80 ghcr.io/polixis-tech/polixis-qa-task:latest
 ```
 
 
