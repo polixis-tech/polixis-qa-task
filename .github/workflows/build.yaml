@@ -1,0 +1,24 @@
+name: Example message
+
+on:
+  push:
+
+jobs:
+  app-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: login github registry
+        uses: docker/login-action@v2
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@v3
+
+      - name: docker build
+        run: docker build -t qa/task:1 .
+
+      - name: docker push image
+        run: |
+          docker tag qa/task:1 ghcr.io/polixis-tech/polixis-qa-task:latest
+          docker push ghcr.io/polixis-tech/polixis-qa-task:latest
