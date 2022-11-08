@@ -11,7 +11,7 @@ docker run -p 9876:80 ghcr.io/polixis-tech/polixis-qa-task:latest
 ```
 
 
-### Open localhost:9876 in browser
+### Open [localhost:9876](http://localhost:9876) in browser
 
 ---
 
